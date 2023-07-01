@@ -1,17 +1,25 @@
-html, body {
+html,
+body {
     overflow: hidden;
     width: 100%;
     height: 100%;
-    font-family: 'Pacifico', cursive;
 }
+
+#loc_img {
+    width: 14px;
+    margin-right: 10px;
+    color: red;
+}
+
 .flip-card {
     position: relative;
     width: 90vw;
-    height: 96vh;
+    height: 94vh;
     border: 10px solid #FA8072;
     box-shadow: inset 10px 0px 15px 0px rgba(0, 0, 0, 0.1);
-    
+
 }
+
 .flip-card .invite-text {
     width: 80%;
     height: 80%;
@@ -19,15 +27,18 @@ html, body {
 }
 
 .flip-card .invite-text h2 {
-    
-    font-size:20px;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: 'Pacifico', cursive;
     margin: 60px auto 60px auto;
 }
-.flip-card h2, .flip-card p{
-    font-size: 20px;
-    line-height: 23px;	
+
+.flip-card h2,
+.flip-card p {
+    font-size: 25px;
+    line-height: 23px;
     color: #002366;
-    font-style: italic;
+    font-weight: 700;
     text-align: center;
     margin: 0px auto 0px auto;
 }
@@ -38,6 +49,7 @@ html, body {
     box-shadow: 6px 0px 6px 0px rgba(0, 0, 0, 0.3), inset 3px 0px 16px 0px rgba(0, 0, 0, 0.2);
     background-color: #FFDAB9;
 }
+
 .flip-card .inner-page {
     position: absolute;
     width: 100%;
@@ -54,15 +66,17 @@ html, body {
     box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.1);
 }
 
-.logo{
+.logo {
     padding-top: 50px;
     text-align: center;
 }
-.logo img{
+
+#lau_emoj {
     width: 150px;
     height: auto;
     margin: 0 auto;
 }
+
 .first-page {
     z-index: 99;
     position: absolute;
@@ -73,7 +87,7 @@ html, body {
     backface-visibility: hidden;
     background-color: #FFDAB9;
     background-size: contain;
-    transform-style: preserve-3d;
+    transform-stylgite: preserve-3d;
     transform-origin: 0% 50%;
     transform: perspective(800px) rotateY(0deg);
     transition: all 0.8s ease-in-out;
@@ -84,22 +98,22 @@ html, body {
     background-color: rgb(115-50, 163-50, 191-50);
 }
 
-.first-page h1{
+.first-page h1 {
     font-size: 52px;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     margin-bottom: 10px;
 }
-.content{
+
+.content {
     position: relative;
     top: 50%;
     transform: translateY(-50%);
-    
+
     text-align: center;
     padding: 0px 10px;
 }
-.content img{
+
+.content img {
     width: 100px;
 }
-
-

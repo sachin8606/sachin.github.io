@@ -11,4 +11,29 @@ var obj = [
 ]
 
 var ele = document.getElementById("person");
-ele.innerText = "Hey "+ obj[myParam] + ",";
+var toName = "Hey "+obj[myParam];
+let i = 0;
+let isCardClicked = false;
+var myInterval = () => {
+
+};
+
+function cardClicked() {
+    if(!isCardClicked){
+        isCardClicked = true;
+        myInterval = setInterval(myTimer, 200);
+    }
+}
+
+function myTimer() {
+    ele.innerHTML += toName[i];
+    i = i + 1;
+    if (i == toName.length) {
+        myStopFunction();
+        ele.innerHTML += ",";
+    }
+}
+
+function myStopFunction() {
+    clearInterval(myInterval);
+}
