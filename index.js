@@ -7,7 +7,8 @@ var obj = [
     "Amisha",
     "Apoorva",
     "Shreya",
-    "Priyanka"
+    "Priyanka",
+    "Satnam"
 ]
 
 var ele = document.getElementById("person");
