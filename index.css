@@ -2,7 +2,7 @@ audio{
     position: fixed;
     top: 80vh;
     width: 95%;
-    opacity: 0.5;
+    opacity: 0.8;
 }
 body{
     background: url('./video.gif');
